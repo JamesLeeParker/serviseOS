@@ -1,0 +1,16 @@
+/* General */
+:root {
+  --background-color: #121212;
+  --action-color: #c89afc;
+  --text-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.hero-button {
+  background-color: var(--action-color);
+}
