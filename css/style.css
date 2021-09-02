@@ -1,16 +1,58 @@
 /* General */
 :root {
-  --background-color: #121212;
-  --action-color: #c89afc;
-  --text-color: #ffffff;
+  --background-color: #ffffff;
+  --button-color: #c89afc;
+  --text-color: #292925;
+  --action-color: #dc8f43;
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+.link-contact a {
+  color: var(--background-color);
+  opacity: 0.5;
+}
+
+/* Main */
+.link a:hover,
+.link a:focus {
+  color: var(--action-color);
+}
+
+.link a {
+  color: var(--text-color);
+  font-size: 20px;
+  display: inline-block;
 }
 
 .hero-button {
-  background-color: var(--action-color);
+  background-color: var(--button-color);
+}
+
+.contacts {
+  background-color: var(--text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--action-color);
+}
+
+.appliances {
+  border: 2px solid var(--action-color);
 }
